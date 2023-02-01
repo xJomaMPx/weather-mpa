@@ -1,20 +1,22 @@
 {
   "name": "weather-mpa",
   "version": "1.0.0",
-  "description": "",
-  "main": "index.js",
+  "description": "frontend project for weather consultation",
   "scripts": {
-    "test": "echo \"Error: no test specified\" && exit 1"
+    "dev": "vite --config vite.config.dev.js",
+    "build": "vite build --config vite.config.prod.js"
   },
   "repository": {
     "type": "git",
     "url": "git+https://github.com/xJomaMPx/weather-mpa.git"
   },
-  "keywords": [],
-  "author": "",
+  "author": "JomaMP",
   "license": "ISC",
   "bugs": {
     "url": "https://github.com/xJomaMPx/weather-mpa/issues"
   },
-  "homepage": "https://github.com/xJomaMPx/weather-mpa#readme"
+  "homepage": "https://github.com/xJomaMPx/weather-mpa#readme",
+  "devDependencies": {
+    "vite": "^4.0.4"
+  }
 }
